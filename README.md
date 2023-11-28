@@ -12,20 +12,20 @@ English | [中文](./README_CN.md)
 
 ## Introduction
 
-XVERSE 3D Gaussian Splatting UE plugin（XVERSE 3D-GS UE Plugin）is a Unreal Engine 5 (UE5) based plugin developed by XVerse, aiming to provide real-time visulization, management, edit, and scalable hybrid rendering of Guassian Splatting model, which is a recently arised technique for reconstructing 3D scenes from multiple photos, more details can refer to [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
+XVERSE 3D Gaussian Splatting UE plugin（XVERSE 3D-GS UE Plugin）is an Unreal Engine 5 (UE5) based plugin developed by XVerse, aiming to provide real-time visualization, management, editing, and scalable hybrid rendering of Gaussian Splatting model, which is a recently arised technique for reconstructing 3D scenes from multiple photos, more details can refer to [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
-Currently, our plugin is implemented based on UE5 Niagara, fully exploiting the advantage of the features provided by UE5 to realize effient rendering and managing for Guassian Splatting models.
+Currently, our plugin is implemented based on UE5 Niagara, fully exploiting the advantage of the features provided by UE5 to realize efficient rendering and managing for Guassian Splatting models.
 
 Since we are at early access, current accessible features are summarized below:
 - Niagara-Based High-quality real-time visualizing and rendering for 3D Gaussian Splatting
-- Easily importing and converting from original Gaussian Splatting scene (.ply file) to ours
-- Hybrid-rendering with other UE assets 
+- Easily importing and converting from the original Gaussian Splatting scene (.ply file) to ours
+- Hybrid rendering with other UE assets 
 - RTS and Geometry Editing
 - Apply VFX effect to Gaussian Splatting scene
 - Support dynamic illumination of Gaussian Splatting scene
-- Automatic ehancement of Gaussian Splatting scene 
+- Automatic enhancement of Gaussian Splatting scene 
 
-We will actively release new feature in this repo, please stay tuned. Some future updates will contain:
+We will actively release new features in this repo, please stay tuned. Some future updates will contain:
 - [ ] Automatic Lod Generation at import and Dynamic Lod Rendering
 - [ ] Automatic collision generation
 - [ ] Support preview window
@@ -41,7 +41,7 @@ We will actively release new feature in this repo, please stay tuned. Some futur
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
 
 ### Packaged demo project
-We provide a packaged windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double click the exe file to start it.
+We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it.
 
 ### Plugin download
 You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
@@ -51,19 +51,19 @@ You can get the latest plugin by using `git clone`, by default we put a plugin o
 git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 ```
 
-Plugins for different UE5 version can be found under [demo](./demo/), extract and install corresponding version if you are not using UE5.1.
+Plugins for different UE5 versions can be found under [demo](./demo/), extract and install the corresponding version if you are not using UE5.1.
 
-Or you can download desired version of plugin in [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)
+Or you can download the desired version of the plugin in [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)
  
 ### Open demo project
-This repo contain a demo project with an example scene and level 
+This repo contains a demo project with an example scene and level 
 1. Open `XV3DGS.uproject` to start UE
 2. Open `demo` level
 
 <img src="Media/image/S3.png" width="800" />
 
-### Import your own guassian splatting model
-Click this load asset button in Navigation Bar.
+### Import your guassian splatting model
+Click this load asset button in the Navigation Bar.
 
 <img src="Media/image/a1.png" width="800" />
 
@@ -71,22 +71,22 @@ There will be a new loading dialog like this.
 
 <img src="Media/image/a2.png" width="800" />
 
-Choose your own gaussian model file (in .ply format), then it will then be converted and loaded into your Content Browser as a blueprint.
+Choose your Gaussian model file (in .ply format), then it will then be converted and loaded into your Content Browser as a blueprint.
 
 <img src="Media/image/a3.png" width="800" />
 
-Drag the blueprint into Level Viewport and you can see your gaussian scene.
+Drag the blueprint into Level Viewport and you can see your Gaussian scene.
 
 <img src="Media/image/a4.png" width="800" />
 
 ## Feature introduction
 
 ### RTS (Rotation, Translation, Scaling) Transform
-Select the 3D-GS asset and dragged into the scene. then you can the Transform.
+Select the 3D-GS asset and drag it into the scene. then you can the Transform.
 
 <img src="Media/image/FA0.png" width="800" />
 
-You can also select an 3D-GS actor in the level viewport and transfore them using GIZMO.
+You can also select a 3D-GS actor in the level viewport and transform it using GIZMO.
 
 <img src="Media/image/a6.gif" width="800" />
 
@@ -96,15 +96,15 @@ You can also select an 3D-GS actor in the level viewport and transfore them usin
 
 <img src="Media/image/FA1.png" width="800" />
 
-2. choose your gaussian model bp, add Add dependency the LocationVolume.
+2. choose your Gaussian model bp, and Add dependency to the LocationVolume.
 
 <img src="Media/image/FA2.png" width="800" />
 
-3. You can interactively transform this volume to Clip gaussian splatting model.
+3. You can interactively transform this volume to a clip Gaussian splatting model.
 
 <img src="Media/image/FA3.png" width="800" />
 
-Default state is not clipping, you can choose to kill particals inside or outside the LocationVolume.
+The default state is not clipping, you can choose to kill particles inside or outside the LocationVolume.
 
 <img src="Media/image/FA4.png" width="800" />
 
@@ -142,7 +142,7 @@ Use the parameter 'VisWhichLOD' for control.
 The default value for 'VisWhichLOD' is -1, indicating the use of our automatic switching algorithm. 
 Other values force the use of a specific LOD level. For example, 0 represents LOD0, where the nearest one million points will be shown.
 
-There are demonstrations showing the results of different LODs at the same position.
+Demonstrations are showing the results of different LODs at the same position.
 
 Each level of LOD points number is one-tenth of the previous level.
 
@@ -163,9 +163,9 @@ LOD2
   
 [v1.0.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
 - Niagara-Based High-quality real-time visualizing and rendering for 3D Gaussian Splatting
-- Easily importing and converting from original Gaussian Splatting scene (.ply file) to ours
-- Hybrid-rendering with other UE assets 
+- Easily importing and converting from the original Gaussian Splatting scene (.ply file) to ours
+- Hybrid rendering with other UE assets 
 - RTS and Geometry Editing
 - Apply VFX effect to Gaussian Splatting scene
 - Support dynamic illumination of Gaussian Splatting scene
-- Automatic ehancement of Gaussian Splatting scene 
+- Automatic enhancement of Gaussian Splatting scene 
