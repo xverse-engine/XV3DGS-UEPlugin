@@ -25,7 +25,7 @@ Since we are at early access, current accessible features are summarized below:
 - Support dynamic illumination of Gaussian Splatting scene
 - Automatic ehancement of Gaussian Splatting scene 
 
-We will actively release new feature in this repo, please stay tuned. Some Future update will contain:
+We will actively release new feature in this repo, please stay tuned. Some future updates will contain:
 - [ ] Automatic Lod Generation at import and Dynamic Lod Rendering
 - [ ] Automatic collision generation
 - [ ] support preview window
