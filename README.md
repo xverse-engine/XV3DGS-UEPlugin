@@ -170,7 +170,7 @@ LOD2
 - Support dynamic illumination of Gaussian Splatting scene
 - Automatic enhancement of Gaussian Splatting scene 
 
-# Contributors
+## Contributors
 
 <a href="https://github.com/xverse-engine/XV3DGS-UEPlugin/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xverse-engine/XV3DGS-UEPlugin" />

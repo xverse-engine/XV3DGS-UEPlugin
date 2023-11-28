@@ -170,7 +170,7 @@ LOD2
 - 整体调色
 - 制作VFX效果
 
-# Contributors
+## Contributors
 
 <a href="https://github.com/xverse-engine/XV3DGS-UEPlugin/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xverse-engine/XV3DGS-UEPlugin" />
