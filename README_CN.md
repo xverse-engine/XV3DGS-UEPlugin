@@ -27,11 +27,12 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 - 制作VFX效果
 
 我们后续将持续在本仓库中发布新功能，敬请期待。一些未来的更新将包含：
-- [ ] 导入时自动生成 Lod, 运行时动态切换 Lod 渲染
+- [ ] 导入时自动生成 Lod，运行时动态切换 Lod 渲染
 - [ ] 自动生成碰撞
 - [ ] preview窗口
 - [ ] 二次编辑GS资产并保存成新uasset
-- [ ] GS数据压缩
+- [ ] 3D-GS资产压缩
+- [ ] 3D-GS资产生产
 
 ## 入门
 
@@ -50,8 +51,6 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 ```
 
 可以在[demo](./demo/)文件夹下找到打包好的插件，分别对应不同的UE5版本
-
-<img src="Media/image/S2.png" width="800" />
  
 ### 打开示例项目
 本仓库已经提供了一个示例项目，其中包含一个示例关卡和场景以及我们的插件

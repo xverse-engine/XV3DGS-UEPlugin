@@ -31,6 +31,7 @@ We will actively release new feature in this repo, please stay tuned. Some Futur
 - [ ] support preview window
 - [ ] Edit 3D-GS assets
 - [ ] 3D-GS assets compression
+- [ ] 3D-GS assets production
 
 ## Getting Started
 
