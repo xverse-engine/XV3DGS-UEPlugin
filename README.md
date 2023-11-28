@@ -123,14 +123,16 @@ Supports all the UE light types
 The light source can be moved at will
 
 <img src="Media/image/FC.gif" width="800" />
+
 ### Change color 
+
 Modify the AlbedoTint parameter to change the overall color.
 
 <img src="Media/image/FC3.png" width="800" />
 
 <img src="Media/image/FB.gif" width="800" />
 
-### Dynamic Lod (coming soon )
+### Dynamic Lod (coming soon)
 For imported point clouds, we calculate the LOD automatically. It will switch LODs automatically based on the view distance.
 Use the parameter 'VisWhichLOD' for control.
 
