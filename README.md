@@ -40,7 +40,7 @@ We will actively release new feature in this repo, please stay tuned. Some Futur
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
 
 ### Packaged demo project
-We provide a packaged windows executable demo, you can download it from [link](), simply double click the exe file to start it.
+We provide a packaged windows executable demo, you can download it from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double click the exe file to start it.
 
 ### Plugin download
 You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
