@@ -7,7 +7,7 @@ English | [中文](./README_CN.md)
 
 [
   <img src="Media/image/XVERSE.png" width="600" />
-]()
+](http://xverse.cn/)
 
 
 ## Introduction
@@ -169,3 +169,9 @@ LOD2
 - Apply VFX effect to Gaussian Splatting scene
 - Support dynamic illumination of Gaussian Splatting scene
 - Automatic enhancement of Gaussian Splatting scene 
+
+# Contributors
+
+<a href="https://github.com/xverse-engine/XV3DGS-UEPlugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xverse-engine/XV3DGS-UEPlugin" />
+</a>

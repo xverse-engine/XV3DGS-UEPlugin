@@ -8,7 +8,7 @@
 
 [
   <img src="Media/image/XVERSE.png" width="600" />
-]()
+](http://xverse.cn/)
  
 ## 介绍
 
@@ -169,3 +169,9 @@ LOD2
 - 动态光照
 - 整体调色
 - 制作VFX效果
+
+# Contributors
+
+<a href="https://github.com/xverse-engine/XV3DGS-UEPlugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xverse-engine/XV3DGS-UEPlugin" />
+</a>
