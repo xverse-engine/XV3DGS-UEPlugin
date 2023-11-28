@@ -28,7 +28,7 @@ Since we are at early access, current accessible features are summarized below:
 We will actively release new feature in this repo, please stay tuned. Some future updates will contain:
 - [ ] Automatic Lod Generation at import and Dynamic Lod Rendering
 - [ ] Automatic collision generation
-- [ ] support preview window
+- [ ] Support preview window
 - [ ] Edit 3D-GS assets
 - [ ] 3D-GS assets compression
 - [ ] 3D-GS assets production
