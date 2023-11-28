@@ -41,7 +41,7 @@ We will actively release new feature in this repo, please stay tuned. Some Futur
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
 
 ### Packaged demo project
-We provide a packaged windows executable demo, you can download it from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double click the exe file to start it.
+We provide a packaged windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double click the exe file to start it.
 
 ### Plugin download
 You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
@@ -53,6 +53,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 Plugins for different UE5 version can be found under [demo](./demo/), extract and install corresponding version if you are not using UE5.1.
 
+Or you can download desired version of plugin in [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)
  
 ### Open demo project
 This repo contain a demo project with an example scene and level 
@@ -160,7 +161,7 @@ LOD2
 
 ## Release Note
   
-[v1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin)
+[v1.0.0](https://github.com/xverse-engine/XV3DGS-UEPlugin)
 - Niagara-Based High-quality real-time visualizing and rendering for 3D Gaussian Splatting
 - Easily importing and converting from original Gaussian Splatting scene (.ply file) to ours
 - Hybrid-rendering with other UE assets 

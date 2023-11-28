@@ -41,7 +41,7 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
 
 ### 打包好的示例
-我们提供了打包后示例，可直接在windows执行，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载，下载解压后双击exe即可运行
+我们提供了打包后示例，可直接在windows执行，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，下载解压后双击exe即可运行
 
 ### 插件获取
 通过 git clone 本仓库获取插件，默认在[Plugins](./Plugins/)目录下已经有一个UE5.1版本可使用的插件
@@ -51,6 +51,8 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 ```
 
 可以在[demo](./demo/)文件夹下找到打包好的插件，分别对应不同的UE5版本
+
+或者你也可以在[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)界面下载你所需要版本的插件zip包
  
 ### 打开示例项目
 本仓库已经提供了一个示例项目，其中包含一个示例关卡和场景以及我们的插件
@@ -158,7 +160,7 @@ LOD2
 
 ## Release Note
   
-[v1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin)
+[v1.0.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
 - 基于 Niagara 的高质量且实时的 3D Gaussian Splatting 模型渲染
 - 轻松将原始 Gaussian Splatting 场景（.ply 文件）导入并在UE场景中渲染
 - 与其他 UE 资产混合渲染
