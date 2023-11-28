@@ -161,7 +161,7 @@ LOD2
 
 ## Release Note
   
-[v1.0.0](https://github.com/xverse-engine/XV3DGS-UEPlugin)
+[v1.0.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
 - Niagara-Based High-quality real-time visualizing and rendering for 3D Gaussian Splatting
 - Easily importing and converting from original Gaussian Splatting scene (.ply file) to ours
 - Hybrid-rendering with other UE assets 
