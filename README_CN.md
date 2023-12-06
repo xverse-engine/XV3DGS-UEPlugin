@@ -12,7 +12,7 @@
  
 ## 介绍
 
-XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal Engine 5 (UE5) 的混合编辑插件，由 XVerse 开发，旨在为 Guassian Splatting 模型提供实时可视化、管理、编辑和可扩展的混合渲染。Guassian Splatting 是一项最近兴起的 3D 重建技术，用于从多张照片重建 3D 场景, 更多的细节可以参考[这里](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
+XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal Engine 5 (UE5) 的混合编辑插件，由 XVERSE Technology Inc. (Zhenshen, China) 开发，旨在为 Guassian Splatting 模型提供实时可视化、管理、编辑和可扩展的混合渲染。Guassian Splatting 是一项最近兴起的 3D 重建技术，用于从多张照片重建 3D 场景, 更多的细节可以参考[这里](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
 目前的插件是基于 UE5 Niagara 实现的，我们充分利用了 UE5 Niagara 提供的优势，实现了 Guassian Splatting 模型的高效渲染和管理。
 
