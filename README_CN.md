@@ -43,6 +43,9 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 ### 打包好的示例
 我们提供了打包后示例，可直接在windows执行，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，下载解压后双击exe即可运行
 
+### 如何打包可执行程序
+[windows可执行程序打包教程](Media/Pack_CN.md)
+
 ### 插件获取
 通过 git clone 本仓库获取插件，默认在[Plugins](./Plugins/)目录下已经有一个UE5.1版本可使用的插件
 

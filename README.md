@@ -43,6 +43,9 @@ We will actively release new features in this repo, please stay tuned. Some futu
 ### Packaged demo project
 We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it.
 
+### Packaging for Windows With Our Plugins
+[packing document](Media/Pack.md)
+
 ### Plugin download
 You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
 
