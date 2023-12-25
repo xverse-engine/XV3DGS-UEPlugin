@@ -1,1 +1,4 @@
 *.zip
+Saved/
+Intermediate/
+DerivedDataCache/

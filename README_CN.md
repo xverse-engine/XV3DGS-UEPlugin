@@ -42,13 +42,6 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 - cuda11或更高（如果要使用XV3DTools训练工具）
 
 
-## 打包好的示例
-我们提供可直接在windows执行的打包示例，，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
-
-
-## 如何打包可执行程序
-[windows可执行程序打包教程](Media/Pack_CN.md)
-
 
 ## 插件获取
 通过 git clone 本仓库获取插件，默认在[Plugins](./Plugins/)目录下已经有一个UE5.1版本可使用的插件
@@ -143,6 +136,13 @@ demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可�
 - demo_office.mp4：视频总时长430秒，训练耗时360分钟
 
 
+## 打包好的示例
+我们提供可直接在windows执行的打包示例，，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
+
+
+## 如何打包可执行程序
+[windows可执行程序打包教程](Media/Pack_CN.md)
+
 # 特性介绍
 
 ### 旋转、平移、缩放（TRS）
@@ -200,11 +200,11 @@ demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可�
 ### 动态 Lod (coming soon )
 对于导入的点云会自动计算LOD
 运行时根据观察距离自动切换lod
-使用参数“viswholod”进行调节
+使用参数“VisWhichLOD”进行调节
  
 <img src="Media/image/FD1.png" width="500" />
 
-参数'viswholod'的默认值是-1，表示使用我们的自动切换算法。
+参数'VisWhichLOD'的默认值是-1，表示使用我们的自动切换算法。
 其他值强制使用特定的LOD级别。例如，0表示LOD0
 
 下面演示不同lod在同一位置的效果。每一级LOD点数少一个数量级。
@@ -227,6 +227,8 @@ LOD2
 - 导入时自动生成LOD，克服单个Niagara 200万点云数量限制
 
 - Windows本地训练环境：使用XV3DTools，实现在windows平台下，给定mp4视频一键训练出Gaussian Splatting ply
+
+- 修复transform的bug
 
 [v1.0.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
 - 修复v1.0.0的bug：UE5.2和UE5.3下打包出现问题

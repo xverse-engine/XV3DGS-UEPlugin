@@ -40,11 +40,7 @@ We will actively release new features in this repo, please stay tuned. Some futu
 - Windows 10 or 11
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
 - cuda11 or higher (if using the XV3DTools)
-## Packaged demo project
-We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it.
 
-## Packaging for Windows With Our Plugins
-[packing document](Media/Pack.md)
 
 ## Plugin download
 You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
@@ -142,7 +138,11 @@ We develop the XV3DTools v1.0 to train MP4 videos into Gaussian Splatting ply.
 - demo_office.mp4: Video duration of 430 seconds, training time of 360 minutes.
 
 
+## Packaged demo project
+We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it.
 
+## Packaging for Windows With Our Plugins
+[packing document](Media/Pack.md)
 
 # Feature introduction
 
@@ -228,6 +228,7 @@ LOD2
   [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
 - Training tools in Windows system (XV3DTools v1.0) to train a given mp4 video to GaussianSplatting ply file
 - Automatic lod generation, supporting over 200,000 point clouds in niagara
+- fix bug in transform
 
 [v1.0.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
 - Fix bug in v1.0.0：Error while packaging for Windows in UE5.2 and UE5.3
