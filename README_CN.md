@@ -53,14 +53,14 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 
   <img src="Plugins/Media/a2.png" width="500" />
 
-  3. 解压到当前目录
+  3. 解压，把XV3dGS文件夹放在Plugins目录下
 
   <img src="Plugins/Media/a3.png" width="500" />
 
 
  ## 测试数据下载路径：
 
-我们提供了两套测试数据 ，下载路径在：
+我们提供了两套测试数据：
  [百度网盘下载地址](https://pan.baidu.com/s/1-cwEXounPJBNtkJe5PJuSw?pwd=XV3D) [谷歌云盘下载地址](https://drive.google.com/drive/folders/1EgVZyYgFbYJqshA6xUheEG7JrEIgsmzR?usp=sharing)
 
 其中:
@@ -147,12 +147,12 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 ## 如何把UE关卡打包成可执行程序
 
-你可以参考下面的文档，实现把你自己的ue关卡打包成windows上可以运行的exe文件
+参考下面的文档，实现把自己的ue关卡打包成windows上可以运行的exe文件
 
 [windows可执行程序打包教程](Media/Pack_CN.md)
 
 
-我们提供一个可直接在windows执行的打包示例，可以从[github release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
+我们提供一个打包好的关卡示例，可以从[github release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
 
 
 # 特性介绍

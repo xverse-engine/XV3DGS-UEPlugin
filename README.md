@@ -52,7 +52,7 @@ We will actively release new features in this repo, please stay tuned. Some futu
 
   <img src="Plugins/Media/a2.png" width="500" />
 
-  3. Unzip to this directory
+  3. Unzip and move folder `XV3dGS` to folder `Plugins`
 
   <img src="Plugins/Media/a3.png" width="500" />
 
@@ -67,7 +67,7 @@ Included in these downloads are `demo_fox_1080p.mp4` and `demo_office_1080p.mp4`
 
 `demo_fox_gs.ply` and `demo_office_gs.ply` are 3DGS models trained by XV3DTools, which can be imported into Unreal Engine (UE) using this plugin for real-time rendering.
 
-
+ <img src="Media/image/t1.png" width="500" />
 
 ## Open demo project
 This repo contains a demo project with an example scene and level
