@@ -44,30 +44,39 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 
 
 ## 插件获取
-通过 git clone 本仓库获取插件，默认在[Plugins](./Plugins/)目录下已经有一个UE5.1版本可使用的插件
 
-```
-git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
-```
+  1. 打开github网址Release页面 [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
 
-可以在[demo](./demo/)文件夹下找到打包好的插件，分别对应不同的UE5版本
+  <img src="Plugins/Media/a1.png" width="500" />
 
-或者你也可以在[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)界面下载你所需要版本的插件zip包
- 
- ### 测试数据下载路径：
+  2. 下载和你使用的ue版本对应的插件压缩包
+
+  <img src="Plugins/Media/a2.png" width="500" />
+
+  3. 解压到当前目录
+
+  <img src="Plugins/Media/a3.png" width="500" />
+
+
+ ## 测试数据下载路径：
 
 我们提供了两套测试数据 ，下载路径在：
  [百度网盘下载地址](https://pan.baidu.com/s/1-cwEXounPJBNtkJe5PJuSw?pwd=XV3D) [谷歌云盘下载地址](https://drive.google.com/drive/folders/1EgVZyYgFbYJqshA6xUheEG7JrEIgsmzR?usp=sharing)
 
-其中demo_fox_1080p.mp4和demo_office_1080p.mp4是两个示例mp4，用于测试XV3DTools本地训练
-
-demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可以用本插件导入UE并实时渲染
+其中:
+- demo_fox_1080p.mp4和demo_office_1080p.mp4是两个示例mp4，用于测试XV3DTools本地训练
+- demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可以用本插件导入UE并实时渲染
 
  <img src="Media/image/t1.png" width="500" />
 
 
 ## 打开示例项目
 本仓库已经提供了一个示例项目，其中包含一个示例关卡和场景以及我们的插件
+可以通过如下指令下载
+
+```
+git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
+```
 
 1. 打开 `XV3DGS.uproject` 启动UE
 2. 打开 `demo` 关卡
@@ -127,21 +136,24 @@ demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可�
 
 <img src="Media/image/t5.png" width="500" />
 
-
-
-
 ### 训练速度参考：
 - 测试机配置：Windows 10，CUDA 11，GeForce RTX 2080（8GB显存），i9-9900处理器。
 - demo_fox.mp4：视频总时长10秒，训练耗时10分钟
 - demo_office.mp4：视频总时长430秒，训练耗时360分钟
 
 
-## 打包好的示例
-我们提供可直接在windows执行的打包示例，，可以从[release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
 
 
-## 如何打包可执行程序
+
+## 如何把UE关卡打包成可执行程序
+
+你可以参考下面的文档，实现把你自己的ue关卡打包成windows上可以运行的exe文件
+
 [windows可执行程序打包教程](Media/Pack_CN.md)
+
+
+我们提供一个可直接在windows执行的打包示例，可以从[github release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)下载`pack_win_exe.zip`，解压后双击exe运行
+
 
 # 特性介绍
 

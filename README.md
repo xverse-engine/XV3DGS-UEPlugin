@@ -43,18 +43,19 @@ We will actively release new features in this repo, please stay tuned. Some futu
 
 
 ## Plugin download
-You can get the latest plugin by using `git clone`, by default we put a plugin of UE5.1 under [Plugins](./Plugins/)
 
+  1. Open github Release page [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
 
-```
-git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
-```
+  <img src="Plugins/Media/a1.png" width="500" />
 
-Plugins for different UE5 versions can be found under [demo](./demo/), extract and install the corresponding version if you are not using UE5.1.
+  2. Download the zip corresponding to the UE version you are using
 
-Or you can download the desired version of the plugin in [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases)
- 
-  <img src="Media/image/t1.png" width="500" />
+  <img src="Plugins/Media/a2.png" width="500" />
+
+  3. Unzip to this directory
+
+  <img src="Plugins/Media/a3.png" width="500" />
+
 
  ## Demo Data Download Links:
 
@@ -69,7 +70,13 @@ Included in these downloads are `demo_fox_1080p.mp4` and `demo_office_1080p.mp4`
 
 
 ## Open demo project
-This repo contains a demo project with an example scene and level 
+This repo contains a demo project with an example scene and level
+
+0. download using git clone
+```
+git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
+```
+
 1. Open `XV3DGS.uproject` to start UE
 2. Open `demo` level
 
@@ -138,11 +145,16 @@ We develop the XV3DTools v1.0 to train MP4 videos into Gaussian Splatting ply.
 - demo_office.mp4: Video duration of 430 seconds, training time of 360 minutes.
 
 
-## Packaged demo project
-We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it.
 
-## Packaging for Windows With Our Plugins
-[packing document](Media/Pack.md)
+
+
+## Packaging UE level for Windows Using Our Plugins
+
+You can refer to the following tutorial to package your own UE levels into exe files that can be run on windows System.
+
+[packing tutorial](Media/Pack.md)
+
+We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it. 
 
 # Feature introduction
 
