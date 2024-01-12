@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "XV3dGS",
+	"Description": "A 3D Gaussian Splatting rendering plug-in for Unreal Engine and has various advanced features to easily modify your GS model",
+	"Category": "Other",
+	"CreatedBy": "Xverse",
+	"CreatedByURL": "http://www.xverse.cn/",
+	"DocsURL": "https://docs.google.com/document/d/1C5cOZHB3YxesKPh01hh-wfjJqXC9N5iPLf0WMjksG54/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d186799254dc405f9bde7a2a81b34733",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GSRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GSImporter",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}

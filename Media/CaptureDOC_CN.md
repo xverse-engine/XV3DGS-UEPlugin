@@ -45,11 +45,11 @@ TIPS：本文档可能会根据后续情况进行更新迭代，非最终版
   可参考：[iPhone相机分辨率怎么设置](https://jingyan.baidu.com/article/b87fe19ec09b21121935687e.html#:~:text=%E8%8B%B9%E6%9E%9C%E7%9B%B8%E6%9C%BA%E5%88%86%E8%BE%A8%E7%8E%87%E8%B0%83%E8%8A%82%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A5%E9%AA%A4%EF%BC%9A.%20%E6%83%B3%E8%A6%81%E8%B0%83%E8%8A%82%E7%9B%B8%E6%9C%BA%E5%88%86%E8%BE%A8%E7%8E%87%E6%97%B6%E6%89%93%E5%BC%80%E6%89%8B%E6%9C%BA%EF%BC%8C%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB%E2%80%9C%E8%AE%BE%E7%BD%AE%E2%80%9D%E3%80%82.,%E6%89%93%E5%BC%80%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%E5%90%8E%E5%90%91%E4%B8%8B%E6%BB%91%E5%8A%A8%EF%BC%8C%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB%E2%80%9C%E7%9B%B8%E6%9C%BA%E2%80%9D%E8%AE%BE%E7%BD%AE%E9%A1%B9%E3%80%82.%20%E6%89%93%E5%BC%80%E7%9B%B8%E6%9C%BA%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%E7%82%B9%E5%87%BB%E2%80%9C%E5%BD%95%E5%88%B6%E8%A7%86%E9%A2%91%E2%80%9D%E3%80%82.%20%E6%89%93%E5%BC%80%E5%BD%95%E5%88%B6%E8%A7%86%E9%A2%91%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%EF%BC%8C%E7%84%B6%E5%90%8E%E6%A0%B9%E6%8D%AE%E9%9C%80%E8%A6%81%E7%82%B9%E9%80%89%E5%88%86%E8%BE%A8%E7%8E%87%E5%8D%B3%E5%8F%AF%E3%80%82.)
 - 示例：
 
-<img src="image/capture/a1.png" width="800" />
+<img src="image/capture/a1.jpg" width="800" />
 
 安卓手机相机拍摄设置参考
 
-<img src="image/capture/a2.png" width="800" />
+<img src="image/capture/a2.jpg" width="800" />
 
 苹果手机相机拍摄设置参考
 
@@ -62,11 +62,11 @@ TIPS：本文档可能会根据后续情况进行更新迭代，非最终版
 
   d.调整白平衡，让场景颜色看起来比较正常
 
-<img src="image/capture/a3.png" width="800" />
+<img src="image/capture/a3.jpg" width="800" />
 
  <center> 安卓手机相机专业拍摄设置参考 </center> 
 
-<img src="image/capture/a4.png" width="800" />
+<img src="image/capture/a4.jpg" width="800" />
 
  <center> 苹果手机相机专业拍摄设置参考（需要下载Relens，专业相机模式） </center> 
 
@@ -85,11 +85,11 @@ TIPS：本文档可能会根据后续情况进行更新迭代，非最终版
   2.开始拍摄后的第一圈环绕，镜头指向场景中心，尽量让场景中心处于镜头中心，如果是为了避开拍摄注意事项中提到的点，可以对镜头进行适当的调整（左右移动旋转，或是抬高降低），或是对移动路径进行微调
     a.TIP：避开注意事项中提及到的点重要程度大于保持拍摄移动路径，例如如果是为了避开行人，或者是避开大面积的近景墙面，可以适当地改变移动路径（拉远镜头）
 
-  <img src="image/capture/a5.png" width="800" />
+  <img src="image/capture/a5.jpg" width="800" />
 
   3.按2中的要求远中近拍摄三圈
 
-  <img src="image/capture/a6.png" width="800" />
+  <img src="image/capture/a6.jpg" width="800" />
 
 ## 1.5 拍摄房间物体路径规划
 和1.4一致，只是相机朝向从超内改成朝外

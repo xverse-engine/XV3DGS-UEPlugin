@@ -7,32 +7,33 @@
 [English](./README.md) | 中文
 
 [
-  <img src="Media/image/XVERSE.png" width="600" />
+  <img src="Media/image/XVERSE.jpg" width="600" />
 ](http://xverse.cn/)
  
 # 介绍
 
-XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal Engine 5 (UE5) 的混合编辑插件，由 XVERSE Technology Inc. (Zhenshen, China) 开发，旨在为 Guassian Splatting 模型提供实时可视化、管理、编辑和可扩展的混合渲染。Guassian Splatting 是一项最近兴起的 3D 重建技术，用于从多张照片重建 3D 场景, 更多的细节可以参考[这里](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
+XVERSE 3D Gaussian Splatting （3D-GS）UE Plugin 是基于 Unreal Engine 5 (UE5) 的混合编辑插件，由 XVERSE Technology Inc. (Zhenshen, China) 开发，旨在UE中提供 Guassian Splatting 模型的生成、呈现、混合编辑能力。Guassian Splatting 是一项最近兴起的 3D 重建技术，用于从多张照片重建 3D 场景, 更多原理可以参考[这里](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
 目前的插件是基于 UE5 Niagara 实现的，我们充分利用了 UE5 Niagara 提供的优势，实现了 Guassian Splatting 模型的高效渲染和管理。
 
 目前我们处于EA阶段，当前开放的插件中，可用的功能总结如下：
 
 - 基于 Niagara 的高质量且实时的 3D Gaussian Splatting 模型渲染
-- 轻松将原始 Gaussian Splatting 场景（.ply 文件）导入并在UE场景中渲染
+- 将原始 Gaussian Splatting 场景（.ply 文件）导入并在UE场景中渲染
 - 与其他 UE 资产混合渲染
 - 旋转, 平移, 缩放和 volume 裁剪
+- 支持剪裁出独立的niagara用于做特效
 - 动态光照和整体调色 
 - 导入时自动生成LOD，克服单个Niagara 200万点云数量限制
 - **_Windows系统本地训练工具:_**：使用XV3DTools，实现在windows平台下，给定mp4视频一键训练出Gaussian Splatting ply，使用细节见下文
 
+
 我们后续将持续在本仓库中发布新功能，敬请期待。一些未来的更新将包含：
-- [ ] 特效系统
 - [ ] 运行时动态切换Lod
 - [ ] 自动生成碰撞
 - [ ] preview窗口
-- [ ] 二次编辑GS资产并保存成新uasset
-- [ ] 3D-GS资产压缩
+- [ ] 交互式剪裁 
+- [ ] 3DGS资产压缩
 
 # 快速入门
 
@@ -47,15 +48,15 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 
   1. 打开github网址Release页面 [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
 
-  <img src="Plugins/Media/a1.png" width="500" />
+  <img src="Plugins/Media/a1.jpg" width="500" />
 
-  2. 下载和你使用的ue版本对应的插件压缩包
+  2. 下载和你使用的ue版本对应的插件压缩包，推荐使用最新版本
 
-  <img src="Plugins/Media/a2.png" width="500" />
+  <img src="Plugins/Media/a2.jpg" width="500" />
 
   3. 解压，把XV3dGS文件夹放在Plugins目录下
 
-  <img src="Plugins/Media/a3.png" width="500" />
+  <img src="Plugins/Media/a3.jpg" width="500" />
 
 
  ## 测试数据下载路径：
@@ -67,7 +68,7 @@ XVERSE 3D Gaussian Splatting plugin（XVERSE 3D-GS） UE Plugin 是基于 Unreal
 - demo_fox_1080p.mp4和demo_office_1080p.mp4是两个示例mp4，用于测试XV3DTools本地训练
 - demo_fox_gs.ply和demo_office_gs.ply是XV3DTools训练出来的3DGS模型，可以用本插件导入UE并实时渲染
 
- <img src="Media/image/t1.png" width="500" />
+ <img src="Media/image/t1.jpg" width="500" />
 
 
 ## 打开示例项目
@@ -81,28 +82,28 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 1. 打开 `XV3DGS.uproject` 启动UE
 2. 打开 `demo` 关卡
 
-<img src="Media/image/S3.png" width="500" />
+<img src="Media/image/S3.jpg" width="500" />
 
 ## 导入你自己的 Guassian Splatting 场景
 点击导航栏上的加载资产按钮，或者window/XV3dgs
 
-<img src="Media/image/t4.png" width="500" />
+<img src="Media/image/t4.jpg" width="500" />
 
-会弹出一个工具整合页面，默认是加载ply页面,点击加载ply按钮
+会弹出一个工具整合页面，默认是import ply页面,点击 import ply file 按钮
 
-<img src="Media/image/t3.png" width="500" />
+<img src="Media/image/t3.jpg" width="500" />
 
 会弹出一个资源选择窗口
 
-<img src="Media/image/a2.png" width="500" />
+<img src="Media/image/a2.jpg" width="500" />
 
 选择你自己的 Guassian Splatting 场景 (.ply 格式)，该场景会自动生成LOD并导入到内容浏览器中
 
-<img src="Media/image/a3.png" width="500" />
+<img src="Media/image/a3.jpg" width="500" />
 
 想要在关卡中可视化场景，只需要将对应的资产拖进关卡视口（Level Viewport）即可
 
-<img src="Media/image/a4.png" width="500" />
+<img src="Media/image/a4.jpg" width="500" />
 
 ## windows平台下本地训练Gaussian Splatting ply
 
@@ -112,29 +113,31 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 ### XV3DTools使用步骤：
 
-0. 从云盘下载XV3DTools工具（v1.0版本）至本地： [百度网盘下载地址](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [谷歌云盘下载地址](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+0. 从云盘下载XV3DTools工具（v1.1.1版本）至本地： [百度网盘下载地址](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [谷歌云盘下载地址](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
 
-<img src="Media/image/t10.png" width="500" />
+<img src="Media/image/t10.jpg" width="500" />
 
 1. 点击图标，打开界面，切换到trainning页面
 
-<img src="Media/image/t6.png" width="500" />
+<img src="Media/image/t4.jpg" width="500" />
 
-2. 点击按钮，设置参数“XV3DTools Folder”为本地XV3DTools工具所在的路径
+2. 点击参数右侧按钮，设置参数“XV3DTools Folder”为本地XV3DTools工具所在的路径
 
-<img src="Media/image/t7.png" width="500" />
+3. 点击参数右侧按钮，选择要处理的MP4文件，并将其设置为参数“Input MP4 Path”（要求视频帧率大于20）
 
-3. 点击按钮，选择要处理的MP4文件，并将其设置为参数“Input MP4 Path”（要求视频帧率大于20）
+4. 点击参数右侧按钮，选择输出的文件夹，并设置为参数“Output Folder”
 
-<img src="Media/image/t8.png" width="500" />
+5. 点击Start Training按钮即可开始训练
 
-4. 点击按钮，选择输出的文件夹，并设置为参数“Output Folder”
+<img src="Media/image/t6.jpg" width="500" />
 
-<img src="Media/image/t9.png" width="500" />
+6. 在训练之前，可以打开Advanced Options，点击Refresh Estimated Time按钮预估训练时间。可以调整Training iteration per image 参数来控制每张图像的迭代次数。
 
-5. 训练很慢，等训练完成后，从输出的文件夹下找到训练结果ply
+<img src="Media/image/t7.jpg" width="500" />
 
-<img src="Media/image/t5.png" width="500" />
+7. 训练完成后，从输出的文件夹下找到训练结果ply
+
+<img src="Media/image/t5.jpg" width="500" />
 
 ### 训练速度参考：
 - 测试机配置：Windows 10，CUDA 11，GeForce RTX 2080（8GB显存），i9-9900处理器。
@@ -160,7 +163,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 ### 旋转、平移、缩放（TRS）
 在Outliner中选中拖入场景的 3D-GS actor，即可通过调整Transform来调整TRS
 
-<img src="Media/image/FA0.png" width="500" />
+<img src="Media/image/FA0.jpg" width="500" />
 
 也可以在关卡视口中点击选中资产，通过控制GIZMO来旋转平移缩放模型
 
@@ -168,35 +171,37 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 ### 高斯点云裁剪
 
-1.添加一个LocationVolume
+1. 点击选中你的Gaussian模型蓝图，点击选中Clip Volume Component，并勾选Clip Volume Component中的Visble框
 
-<img src="Media/image/FA1.png" width="500" />
+<img src="Media/image/FA1.jpg" width="500" />
 
-2.选中你的Gaussian模型蓝图，添加LocationVolume的引用
+2. 保持选中Clip Volume Component，你可以在窗口中看到一个体积Volume，你可以通过修改Transform来修改volume的旋转平移缩放，也可以通过键盘快捷键wer可视化的调整GIZMO来实现旋转平移缩放
 
-<img src="Media/image/FA2.png" width="500" />
+<img src="Media/image/FA2.jpg" width="500" />
 
-3.你可以交互式的移动LocationVolume来裁剪你的Gaussian模型
+3. 保持选中Clip Volume Component，你可以在Crop Type中选择不同的剪裁方案，默认状态是不裁剪，你可以改成裁剪体积内或者体积外的部分。如图是剪裁掉体积外的部分
 
-<img src="Media/image/FA3.png" width="500" />
+<img src="Media/image/FA3.jpg" width="500" />
 
-默认状态是不裁剪，你可以改成裁剪体积内或者体积外的部分
+4. 点击Crop GSPoints按钮，可以把上面的部分剪裁出一个干净的niagara
 
-<img src="Media/image/FA4.png" width="500" />
+<img src="Media/image/FA4.jpg" width="500" />
 
-<img src="Media/image/FA5.png" width="500" />
+5. 这个干净的niagara可以用于后续做特效，具体请参考我们的特效教程
+
+<img src="Media/image/FA5.jpg" width="500" />
 
 ### 支持动态光照
 
 默认是不接受动态光照
 通过开启 with Relighting按钮启用接受动态光照
 
-<img src="Media/image/FC2.png" width="500" />
+<img src="Media/image/FC2.jpg" width="500" />
 
 支持UE全部光源类型 
 如下图是添加点光源
 
-<img src="Media/image/FC1.png" width="500" />
+<img src="Media/image/FC1.jpg" width="500" />
 
 光源可以任意移动
 
@@ -205,7 +210,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 ### 支持整体后处理改变颜色
 通过修改AlbedoTint参数实现整体修改颜色
 
-<img src="Media/image/FC3.png" width="500" />
+<img src="Media/image/FC3.jpg" width="500" />
 
 <img src="Media/image/FB.gif" width="500" />
 
@@ -214,7 +219,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 运行时根据观察距离自动切换lod
 使用参数“VisWhichLOD”进行调节
  
-<img src="Media/image/FD1.png" width="500" />
+<img src="Media/image/FD1.jpg" width="500" />
 
 参数'VisWhichLOD'的默认值是-1，表示使用我们的自动切换算法。
 其他值强制使用特定的LOD级别。例如，0表示LOD0
@@ -223,18 +228,24 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 LOD0
 
-<img src="Media/image/FD_lod0.png" width="500" />
+<img src="Media/image/FD_lod0.jpg" width="500" />
 
 LOD1
  
-<img src="Media/image/FD_lod1.png" width="500" />
+<img src="Media/image/FD_lod1.jpg" width="500" />
 
 LOD2
  
-<img src="Media/image/FD_lod2.png" width="500" />
+<img src="Media/image/FD_lod2.jpg" width="500" />
 
 
 ## Release Note
+
+  [v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
+- 更新剪裁功能，实现剪裁出一个干净的niagara来做特效
+
+- Windows本地训练环境：支持用户调节训练迭代次数
+
   [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
 - 导入时自动生成LOD，克服单个Niagara 200万点云数量限制
 

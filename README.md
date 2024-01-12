@@ -6,7 +6,7 @@
 English | [中文](./README_CN.md)
 
 [
-  <img src="Media/image/XVERSE.png" width="600" />
+  <img src="Media/image/XVERSE.jpg" width="600" />
 ](http://xverse.cn/)
 
 
@@ -20,17 +20,17 @@ Since we are at early access, current accessible features are summarized below:
 - Niagara-Based High-quality real-time visualizing and rendering for 3D Gaussian Splatting
 - Easily importing and converting from the original Gaussian Splatting scene (.ply file) to ours
 - Hybrid rendering with other UE assets 
-- RTS and Geometry Editing 
+- RTS and volume based crop
+- Crop a pure niagara for VFX
 - Support dynamic illumination of Gaussian Splatting scene
 - Automatic lod generation, supporting over 200,000 point clouds in niagara
 - **_Training tools in Windows system (XV3DTools v1.0)_**： train a given mp4 video to GaussianSplatting ply file
 
 We will actively release new features in this repo, please stay tuned. Some future updates will contain:
-- [ ] VFX system
 - [ ] Dynamic Lod Rendering
 - [ ] Automatic collision generation
 - [ ] Support preview window
-- [ ] Edit 3D-GS assets
+- [ ] Interactively Edit 3D-GS assets
 - [ ] 3D-GS assets compression
 
 # Getting Started
@@ -46,15 +46,15 @@ We will actively release new features in this repo, please stay tuned. Some futu
 
   1. Open github Release page [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
 
-  <img src="Plugins/Media/a1.png" width="500" />
+  <img src="Plugins/Media/a1.jpg" width="500" />
 
   2. Download the zip corresponding to the UE version you are using
 
-  <img src="Plugins/Media/a2.png" width="500" />
+  <img src="Plugins/Media/a2.jpg" width="500" />
 
   3. Unzip and move folder `XV3dGS` to folder `Plugins`
 
-  <img src="Plugins/Media/a3.png" width="500" />
+  <img src="Plugins/Media/a3.jpg" width="500" />
 
 
  ## Demo Data Download Links:
@@ -67,7 +67,7 @@ Included in these downloads are `demo_fox_1080p.mp4` and `demo_office_1080p.mp4`
 
 `demo_fox_gs.ply` and `demo_office_gs.ply` are 3DGS models trained by XV3DTools, which can be imported into Unreal Engine (UE) using this plugin for real-time rendering.
 
- <img src="Media/image/t1.png" width="500" />
+ <img src="Media/image/t1.jpg" width="500" />
 
 ## Open demo project
 This repo contains a demo project with an example scene and level
@@ -80,27 +80,27 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 1. Open `XV3DGS.uproject` to start UE
 2. Open `demo` level
 
-<img src="Media/image/S3.png" width="500" />
+<img src="Media/image/S3.jpg" width="500" />
 
 ## Import your guassian splatting model
 Click on the 'Load Assets' button on the navigation bar or navigate to Window/XV3dgs.
-<img src="Media/image/t4.png" width="500" />
+<img src="Media/image/t4.jpg" width="500" />
 
 This action will bring up an integrated tool page by default set to load the PLY page. Click on the 'Load PLY' button.
 
-<img src="Media/image/t3.png" width="500" />
+<img src="Media/image/t3.jpg" width="500" />
 
 This will trigger a resource selection window to appear.
 
-<img src="Media/image/a2.png" width="500" />
+<img src="Media/image/a2.jpg" width="500" />
 
 Choose your Gaussian model file (in .ply format), then it will automaticly generate LOD and loaded into your Content Browser as a blueprint.
 
-<img src="Media/image/a3.png" width="500" />
+<img src="Media/image/a3.jpg" width="500" />
 
 Drag the blueprint into Level Viewport and you can see your Gaussian scene.
 
-<img src="Media/image/a4.png" width="500" />
+<img src="Media/image/a4.jpg" width="500" />
 
 
 ## Local Training on Windows Platform
@@ -111,33 +111,31 @@ We develop the XV3DTools v1.0 to train MP4 videos into Gaussian Splatting ply.
 
 ### XV3DTools Usage Steps:
 
-0. Download XV3DTools (v1.0) tool from the cloud drive to your local machine: [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+0. Download XV3DTools (v1.1.1) tool from the cloud drive to your local machine: [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
 
-<img src="Media/image/t10.png" width="500" />
-  ![Second Image]("Media/image/t6.png")
+<img src="Media/image/t10.jpg" width="500" />
   
 1. Click on the icon to open the interface and switch to the 'training' page.
 
-<img src="Media/image/t6.png" width="500" />
+<img src="Media/image/t4.jpg" width="500" />
 
-2. Click the button to set the parameter "XV3DTools Folder" to the local path where XV3DTools tool is located.
+2. Click button to set the parameter "XV3DTools Folder" to the local path where XV3DTools tool is located.
 
-<img src="Media/image/t7.png" width="500" />
+3. Click button to select the MP4 file for processing and set it as the parameter "Input MP4 Path" (requires video frame rate > 20).
 
-3. Click the button to select the MP4 file for processing and set it as the parameter "Input MP4 Path" (requires video frame rate > 20).
+4. Click button to choose the output folder and set it as the parameter "Output Folder".
 
-<img src="Media/image/t8.png" width="500" />
+5. click Start Training button.
 
-4. Click the button to choose the output folder and set it as the parameter "Output Folder".
+<img src="Media/image/t6.jpg" width="500" />
 
-<img src="Media/image/t9.png" width="500" />
+6. Before training, you can open "Advanced Options" and click "Refresh Estimated Time" button to estimate the training time. The parameter "Training iteration per image" can be adjusted to control the number of iterations per image.
 
-5. Training takes time. Once completed, locate the trained ply file in the output folder.
+<img src="Media/image/t7.jpg" width="500" />
 
-<img src="Media/image/t5.png" width="500" />
+7. Training takes time. Once completed, locate the trained ply file in the output folder.
 
-
-
+<img src="Media/image/t5.jpg" width="500" />
 
 ### Training Speed Reference:
 - Test Machine Configuration: Windows 10, CUDA 11.8, GeForce RTX 2080 (8GB VRAM), i9-9900 processor.
@@ -161,7 +159,7 @@ We provide a packaged Windows executable demo, you can download `pack_win_exe.zi
 ### RTS (Rotation, Translation, Scaling) Transform
 Select the 3D-GS asset and drag it into the scene. then you can Transform it.
 
-<img src="Media/image/FA0.png" width="500" />
+<img src="Media/image/FA0.jpg" width="500" />
 
 You can also select a 3D-GS actor in the level viewport and transform it using GIZMO.
 
@@ -169,34 +167,36 @@ You can also select a 3D-GS actor in the level viewport and transform it using G
 
 ### Model Clipping by Gaussian model
 
-1. Add a LocationVolume to Level Viewport.
+1. Click to select your Gaussian model blueprint, then click to select the "Clip Volume Component", and open the "Visible" box in the "Clip Volume Component".
 
-<img src="Media/image/FA1.png" width="500" />
+<img src="Media/image/FA1.jpg" width="500" />
 
-2. choose your Gaussian model bp, and Add dependency to the LocationVolume.
+2. With the "Clip Volume Component" selected, you can see a crop volume in the window. You can modify the rotation, translation, and scale of the volume by adjusting the Transform attribute. Alternatively, use the keyboard shortcuts WER to visually adjust the GIZMO for rotation, translation, and scale.
 
-<img src="Media/image/FA2.png" width="500" />
+<img src="Media/image/FA2.jpg" width="500" />
 
-3. You can interactively transform this volume to a clip Gaussian splatting model.
+3. Keep the "Clip Volume Component" selected, and choose different cropping options in the Crop Type. The default state is no cropping, but you can change it to crop the inside or outside of the volume. The example below shows cropping the outside of the volume.
 
-<img src="Media/image/FA3.png" width="500" />
+<img src="Media/image/FA3.jpg" width="500" />
 
-The default state is not clipping, you can choose to kill particles inside or outside the LocationVolume.
+4. Click the "Crop GSPoints" button to clip the specified portion and obtain a clean Niagara.
 
-<img src="Media/image/FA4.png" width="500" />
+<img src="Media/image/FA4.jpg" width="500" />
 
-<img src="Media/image/FA5.png" width="500" />
+5. This clean Niagara can be used for VFX. For more details, please refer to our VFX tutorial (Coming soon).
+
+<img src="Media/image/FA5.jpg" width="500" />
 
 ### Dynamic illumination 
 Dynamic lighting is not default opened.
 
 you can enable it by turning on the withRelighting button.
 
-<img src="Media/image/FC2.png" width="500" />
+<img src="Media/image/FC2.jpg" width="500" />
 
 Supports all the UE light types
 
-<img src="Media/image/FC1.png" width="500" />
+<img src="Media/image/FC1.jpg" width="500" />
 
 The light source can be moved at will
 
@@ -206,7 +206,7 @@ The light source can be moved at will
 
 Modify the AlbedoTint parameter to change the overall color.
 
-<img src="Media/image/FC3.png" width="500" />
+<img src="Media/image/FC3.jpg" width="500" />
 
 <img src="Media/image/FB.gif" width="500" />
 
@@ -214,7 +214,7 @@ Modify the AlbedoTint parameter to change the overall color.
 For imported point clouds, we calculate the LOD automatically. It will switch LODs automatically based on the view distance.
 Use the parameter 'VisWhichLOD' for control.
 
-<img src="Media/image/FD1.png" width="500" />
+<img src="Media/image/FD1.jpg" width="500" />
 
 The default value for 'VisWhichLOD' is -1, indicating the use of our automatic switching algorithm. 
 Other values force the use of a specific LOD level. For example, 0 represents LOD0, where the nearest one million points will be shown.
@@ -225,18 +225,22 @@ Each level of LOD points number is one-tenth of the previous level.
 
 LOD0
 
-<img src="Media/image/FD_lod0.png" width="500" />
+<img src="Media/image/FD_lod0.jpg" width="500" />
 
 LOD1
  
-<img src="Media/image/FD_lod1.png" width="500" />
+<img src="Media/image/FD_lod1.jpg" width="500" />
 
 LOD2
  
-<img src="Media/image/FD_lod2.png" width="500" />
+<img src="Media/image/FD_lod2.jpg" width="500" />
 
 
 ## Release Note
+  [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
+- Updated clipping functionality, allowing the creation of a clean Niagara for VFX.
+- Training tools in Windows system (XV3DTools v1.1.1): Users can now adjust the training iteration.
+
   [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
 - Training tools in Windows system (XV3DTools v1.0) to train a given mp4 video to GaussianSplatting ply file
 - Automatic lod generation, supporting over 200,000 point clouds in niagara
