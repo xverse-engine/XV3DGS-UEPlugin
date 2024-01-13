@@ -44,7 +44,7 @@ We will actively release new features in this repo, please stay tuned. Some futu
 
 ## Plugin download
 
-  1. Open github Release page [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
+  1. Open github Release page 
 
   <img src="Plugins/Media/a1.jpg" width="500" />
 
@@ -60,8 +60,8 @@ We will actively release new features in this repo, please stay tuned. Some futu
  ## Demo Data Download Links:
 
 We have provided two sets of test data available for download at:
-- [Baidu Pan Download Link](https://pan.baidu.com/s/1-cwEXounPJBNtkJe5PJuSw?pwd=XV3D)
-- [Google Drive Download Link](https://drive.google.com/drive/folders/1EgVZyYgFbYJqshA6xUheEG7JrEIgsmzR?usp=sharing)
+- [Baidu Pan Download Link](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D)
+- [Google Drive Download Link](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
 
 Included in these downloads are `demo_fox_1080p.mp4` and `demo_office_1080p.mp4`, serving as two sample MP4 files for testing XV3DTools' local training capabilities.
 
@@ -105,13 +105,13 @@ Drag the blueprint into Level Viewport and you can see your Gaussian scene.
 
 ## Local Training on Windows Platform
 
-We develop the XV3DTools v1.0 to train MP4 videos into Gaussian Splatting ply.
+We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting ply.
 
 **_Please Note:_** Installation of CUDA 11 or higher is required. [CUDA Download Link](https://developer.nvidia.com/cuda-downloads)
 
 ### XV3DTools Usage Steps:
 
-0. Download XV3DTools (v1.1.1) tool from the cloud drive to your local machine: [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+0. Download XV3DTools(**V1.1.1**) tool from the cloud drive to your local machine: [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
 
 <img src="Media/image/t10.jpg" width="500" />
   
@@ -154,7 +154,7 @@ You can refer to the following tutorial to package your own UE levels into exe f
 
 We provide a packaged Windows executable demo, you can download `pack_win_exe.zip` from [release](https://github.com/xverse-engine/XV3DGS-UEPlugin/releases), simply double-click the exe file to start it. 
 
-# Feature introduction
+# Feature Introduction
 
 ### RTS (Rotation, Translation, Scaling) Transform
 Select the 3D-GS asset and drag it into the scene. then you can Transform it.
@@ -210,38 +210,20 @@ Modify the AlbedoTint parameter to change the overall color.
 
 <img src="Media/image/FB.gif" width="500" />
 
-### Dynamic Lod (coming soon)
-For imported point clouds, we calculate the LOD automatically. It will switch LODs automatically based on the view distance.
-Use the parameter 'VisWhichLOD' for control.
+### LOD
+
+For imported point clouds, LOD is automatically calculated, with the default being to explicitly display the maximum LOD within the limit of 2 million points for Niagara. The parameter "VisWhichLOD" can be used to force the use of a specific LOD.
 
 <img src="Media/image/FD1.jpg" width="500" />
 
-The default value for 'VisWhichLOD' is -1, indicating the use of our automatic switching algorithm. 
-Other values force the use of a specific LOD level. For example, 0 represents LOD0, where the nearest one million points will be shown.
-
-Demonstrations are showing the results of different LODs at the same position.
-
-Each level of LOD points number is one-tenth of the previous level.
-
-LOD0
-
-<img src="Media/image/FD_lod0.jpg" width="500" />
-
-LOD1
- 
-<img src="Media/image/FD_lod1.jpg" width="500" />
-
-LOD2
- 
-<img src="Media/image/FD_lod2.jpg" width="500" />
-
+Dynamic switching of LOD based on the view camera will be supported in future updates.
 
 ## Release Note
-  [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
-- Updated clipping functionality, allowing the creation of a clean Niagara for VFX.
-- Training tools in Windows system (XV3DTools v1.1.1): Users can now adjust the training iteration.
+[v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
+- New Model Clipping allowing the creation of a clean Niagara for VFX.
+- XV3DTools v1.1.1: Users can now adjust the training iteration.
 
-  [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
+[v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
 - Training tools in Windows system (XV3DTools v1.0) to train a given mp4 video to GaussianSplatting ply file
 - Automatic lod generation, supporting over 200,000 point clouds in niagara
 - fix bug in transform

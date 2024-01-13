@@ -46,7 +46,7 @@ XVERSE 3D Gaussian Splatting （3D-GS）UE Plugin 是基于 Unreal Engine 5 (UE5
 
 ## 插件获取
 
-  1. 打开github网址Release页面 [github地址](https://github.com/xverse-engine/XV3DGS-UEPlugin) 
+  1. 打开github网址Release页面 
 
   <img src="Plugins/Media/a1.jpg" width="500" />
 
@@ -107,13 +107,15 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 ## windows平台下本地训练Gaussian Splatting ply
 
-我们使用XV3DTools v1.0版本实现将MP4视频训练出Gaussian Splatting ply
+我们使用XV3DTools（**V1.1.1**）版本实现将MP4视频训练出Gaussian Splatting ply
 
  **_请注意:_** 使用前需要预先安装CUDA 11或更高版本[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)
 
 ### XV3DTools使用步骤：
 
-0. 从云盘下载XV3DTools工具（v1.1.1版本）至本地： [百度网盘下载地址](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [谷歌云盘下载地址](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+0. 从云盘下载XV3DTools工具（**V1.1.1**）至本地： 
+- [百度网盘下载地址](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D) 
+- [谷歌云盘下载地址](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
 
 <img src="Media/image/t10.jpg" width="500" />
 
@@ -214,43 +216,21 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 <img src="Media/image/FB.gif" width="500" />
 
-### 动态 Lod (coming soon )
-对于导入的点云会自动计算LOD
-运行时根据观察距离自动切换lod
-使用参数“VisWhichLOD”进行调节
- 
+### LOD 
+对于导入的点云会自动计算LOD，默认是在不超过niagara的200万点上限的基础上显式最大的一级LOD。可以使用参数“VisWhichLOD”强制指定使用那一级LOD
+  
 <img src="Media/image/FD1.jpg" width="500" />
 
-参数'VisWhichLOD'的默认值是-1，表示使用我们的自动切换算法。
-其他值强制使用特定的LOD级别。例如，0表示LOD0
-
-下面演示不同lod在同一位置的效果。每一级LOD点数少一个数量级。
-
-LOD0
-
-<img src="Media/image/FD_lod0.jpg" width="500" />
-
-LOD1
- 
-<img src="Media/image/FD_lod1.jpg" width="500" />
-
-LOD2
- 
-<img src="Media/image/FD_lod2.jpg" width="500" />
-
+后续会支持根据视角动态的切换LOD
 
 ## Release Note
-
   [v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
 - 更新剪裁功能，实现剪裁出一个干净的niagara来做特效
+- XV3DTools v1.1.1：支持用户调节训练迭代次数
 
-- Windows本地训练环境：支持用户调节训练迭代次数
-
-  [v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
+[v1.1.0](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.0)
 - 导入时自动生成LOD，克服单个Niagara 200万点云数量限制
-
 - Windows本地训练环境：使用XV3DTools，实现在windows平台下，给定mp4视频一键训练出Gaussian Splatting ply
-
 - 修复transform的bug
 
 [v1.0.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.0.0)
