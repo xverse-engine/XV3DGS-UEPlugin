@@ -24,7 +24,7 @@ Since we are at early access, current accessible features are summarized below:
 - Crop a pure niagara for VFX
 - Support dynamic illumination of Gaussian Splatting scene
 - Automatic lod generation, supporting over 200,000 point clouds in niagara
-- **_Training tools in Windows system (XV3DTools v1.0)_**： train a given mp4 video to GaussianSplatting ply file
+- **_Training tools in Windows system (XV3DTools)_**： train a given mp4 video to GaussianSplatting ply file
 
 We will actively release new features in this repo, please stay tuned. Some future updates will contain:
 - [ ] Dynamic Lod Rendering
@@ -34,6 +34,18 @@ We will actively release new features in this repo, please stay tuned. Some futu
 - [ ] 3D-GS assets compression
 
 # Getting Started
+
+## Video Tutorial
+
+Youtube（English）：  
+- [[Free 3DGS Tutorial] 3D Gaussian Splatting in Unreal Engine 5 for Beginners ](https://www.youtube.com/watch?v=ohU4qo-7jJo) 
+- [[Free 3DGS Tutorial] Make your 3D Gaussian Splatting easily -Turning a VIDEO into 3D](https://www.youtube.com/watch?v=yFC6SipFtyo&t=115s) 
+- [[Free 3DGS Tutorial] 3D Gaussian Splatting + VFX is AWESOME！](https://www.youtube.com/watch?v=RHdLI34GD1s) 
+
+B站（中文）：  
+- [[3DGS教程] 使用免费插件在UE5上轻松玩转3D Gaussian Splatting](https://www.bilibili.com/video/BV1ei4y1W73Y/)
+- [[3DGS教程] 将场景视频（.mp4）转为3D模型（.ply）的免费工具](https://www.bilibili.com/video/BV1jW4y1F7SR/)
+- [[3DGS教程] 3D Gaussian Splatting + VFX 打造惊艳特效！](https://www.bilibili.com/video/BV1xW4y1F7N7/)
 
 ## System Requirements
 
@@ -111,7 +123,9 @@ We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting
 
 ### XV3DTools Usage Steps:
 
-0. Download XV3DTools(**V1.1.1**) tool from the cloud drive to your local machine: [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+0. Download XV3DTools(**V1.1.1**) tool from the cloud drive to your local machine: 
+- [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) 
+- [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
 
 <img src="Media/image/t10.jpg" width="500" />
   

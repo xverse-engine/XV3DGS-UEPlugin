@@ -35,7 +35,19 @@ XVERSE 3D Gaussian Splatting （3D-GS）UE Plugin 是基于 Unreal Engine 5 (UE5
 - [ ] 交互式剪裁 
 - [ ] 3DGS资产压缩
 
+
 # 快速入门
+
+## 视频教程
+B站（中文）：  
+- [[3DGS教程] 使用免费插件在UE5上轻松玩转3D Gaussian Splatting](https://www.bilibili.com/video/BV1ei4y1W73Y/)
+- [[3DGS教程] 将场景视频（.mp4）转为3D模型（.ply）的免费工具](https://www.bilibili.com/video/BV1jW4y1F7SR/)
+- [[3DGS教程] 3D Gaussian Splatting + VFX 打造惊艳特效！](https://www.bilibili.com/video/BV1xW4y1F7N7/)
+
+youtube（English）：  
+- [[Free 3DGS Tutorial] 3D Gaussian Splatting in Unreal Engine 5 for Beginners ](https://www.youtube.com/watch?v=ohU4qo-7jJo) 
+- [[Free 3DGS Tutorial] Make your 3D Gaussian Splatting easily -Turning a VIDEO into 3D](https://www.youtube.com/watch?v=yFC6SipFtyo&t=115s) 
+- [[Free 3DGS Tutorial] 3D Gaussian Splatting + VFX is AWESOME！](https://www.youtube.com/watch?v=RHdLI34GD1s) 
 
 ## 系统要求
 - Windows 10 或 11
