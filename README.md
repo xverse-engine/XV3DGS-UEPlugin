@@ -72,8 +72,10 @@ B站（中文）：
  ## Demo Data Download Links:
 
 We have provided two sets of test data available for download at:
-- [Baidu Pan Download Link](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D)
-- [Google Drive Download Link](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
+ - [Baidu Pan Download Link](https://pan.baidu.com/s/1-cwEXounPJBNtkJe5PJuSw?pwd=XV3D) 
+ - [Google Drive Download Link](https://drive.google.com/drive/folders/1EgVZyYgFbYJqshA6xUheEG7JrEIgsmzR?usp=sharing)
+
+
 
 Included in these downloads are `demo_fox_1080p.mp4` and `demo_office_1080p.mp4`, serving as two sample MP4 files for testing XV3DTools' local training capabilities.
 
@@ -124,8 +126,8 @@ We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting
 ### XV3DTools Usage Steps:
 
 0. Download XV3DTools(**V1.1.1**) tool from the cloud drive to your local machine: 
-- [Baidu Pan Download Link](https://pan.baidu.com/s/162C9Xw_t403h4C8wnD3azQ?pwd=XV3D) 
-- [Google Drive Download Link](https://drive.google.com/drive/folders/1btXlKO2OHknklRgwMfLEykSChZuPCO4-?usp=sharing)
+- [Baidu Pan Download Link](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D)
+- [Google Drive Download Link](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
 
 <img src="Media/image/t10.jpg" width="500" />
   
