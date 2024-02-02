@@ -235,6 +235,12 @@ For imported point clouds, LOD is automatically calculated, with the default bei
 Dynamic switching of LOD based on the view camera will be supported in future updates.
 
 ## Release Note
+
+[v1.1.2](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.2)
+- Supports more types of ply header 
+- Fixed flickers when moving objects
+- Update UI
+
 [v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
 - New Model Clipping allowing the creation of a clean Niagara for VFX.
 - XV3DTools v1.1.1: Users can now adjust the training iteration.

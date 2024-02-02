@@ -233,10 +233,14 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
   
 <img src="Media/image/FD1.jpg" width="500" />
 
-后续会支持根据视角动态的切换LOD
+ 
 
-## Release Note
-  [v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
+[v1.1.2](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.2)
+- 支持更多类别ply头文件
+- 修复移动物体闪烁的bug
+- 更新UI
+
+[v1.1.1](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.1)
 - 更新剪裁功能，实现剪裁出一个干净的niagara来做特效
 - XV3DTools v1.1.1：支持用户调节训练迭代次数
 

@@ -13,6 +13,9 @@
 	"EngineVersion": "5.1.0",
 	"CanContainContent": true,
 	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
 	"Modules": [
 		{
 			"Name": "GSRuntime",
