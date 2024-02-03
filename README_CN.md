@@ -49,6 +49,21 @@ youtube（English）：
 - [[Free 3DGS Tutorial] Make your 3D Gaussian Splatting easily -Turning a VIDEO into 3D](https://www.youtube.com/watch?v=yFC6SipFtyo&t=115s) 
 - [[Free 3DGS Tutorial] 3D Gaussian Splatting + VFX is AWESOME！](https://www.youtube.com/watch?v=RHdLI34GD1s) 
 
+## 招聘
+### 【图形图像算法工程师-3D记录方向】
+
+岗位职责：研发3D记录/重建领域的相关算法和应用，综合运用Gaussian Splatting、NeRF、IBR、SFM、深度估计等多种CVCG技术，依据产品需求进行组合创新和单点突破。将算法集成进图形引擎，持续打磨算法的性能和效果，追踪前沿算法的最新进展。
+
+岗位要求：
+- 1.硕士或以上学历，有扎实的计算机视觉或图形学功底，了解NeRF、Gaussian Splatting、IBR、SFM、深度估计等三维重建方法中的至少一个子方向。
+- 2.熟练掌握至少一种编程语言，如C++，Python等。
+- 3.有顶级学术会议发表或编程竞赛优胜经验者有加分。
+
+投递邮箱：linxiangkai@xverse.cn
+
+投递时请邮件标题标明申请正式员工or实习生岗位
+
+
 ## 系统要求
 - Windows 10 或 11
 - Unreal Engine 5.1.x / 5.2.x / 5.3.x
