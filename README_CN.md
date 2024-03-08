@@ -112,6 +112,10 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 <img src="Media/image/S3.jpg" width="500" />
 
 ## 导入你自己的 Guassian Splatting 场景
+
+### **v1.1.3新增功能，支持直接拖动多个ply到Content Browser实现批量导入**
+
+
 点击导航栏上的加载资产按钮，或者window/XV3dgs
 
 <img src="Media/image/t4.jpg" width="500" />
@@ -150,11 +154,11 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 <img src="Media/image/t4.jpg" width="500" />
 
-2. 点击参数右侧按钮，设置参数“XV3DTools Folder”为本地XV3DTools工具所在的路径
+2. 点击参数右侧按钮，设置参数“XV3DTools Folder”为本地XV3DTools工具所在的路径，注意路径不能是中文，不能有特殊字符如#$%。
 
-3. 点击参数右侧按钮，选择要处理的MP4文件，并将其设置为参数“Input MP4 Path”（要求视频帧率大于20）
+3. 点击参数右侧按钮，选择要处理的MP4文件，并将其设置为参数“Input MP4 Path”（要求视频帧率大于20），注意路径不能是中文，不能有特殊字符如#$%。
 
-4. 点击参数右侧按钮，选择输出的文件夹，并设置为参数“Output Folder”
+4. 点击参数右侧按钮，选择输出的文件夹，并设置为参数“Output Folder”，注意路径不能是中文，不能有特殊字符如#$%。
 
 5. 点击Start Training按钮即可开始训练
 
@@ -249,6 +253,10 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 <img src="Media/image/FD1.jpg" width="500" />
 
  
+[v1.1.3](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.3)
+- 支持拖动多个文件Content Browser并导入
+- 修复 buffer资产位置不正确时候的闪退问题
+- 修复 XV3DTools 错误路径提示
 
 [v1.1.2](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.2)
 - 支持更多类别ply头文件

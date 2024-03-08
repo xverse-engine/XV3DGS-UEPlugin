@@ -97,6 +97,8 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 <img src="Media/image/S3.jpg" width="500" />
 
 ## Import your guassian splatting model
+### **After v1.1.3, this plugin supports dragging multiple ply files directly into the Content Browser and importing them.**
+
 Click on the 'Load Assets' button on the navigation bar or navigate to Window/XV3dgs.
 <img src="Media/image/t4.jpg" width="500" />
 
@@ -135,11 +137,11 @@ We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting
 
 <img src="Media/image/t4.jpg" width="500" />
 
-2. Click button to set the parameter "XV3DTools Folder" to the local path where XV3DTools tool is located.
+2. Click button to set the parameter "XV3DTools Folder" to the local path where XV3DTools tool is located. The path can only be composed of English words. no chinese words and no special words such as "# $ %".
 
-3. Click button to select the MP4 file for processing and set it as the parameter "Input MP4 Path" (requires video frame rate > 20).
+3. Click button to select the MP4 file for processing and set it as the parameter "Input MP4 Path" (requires video frame rate > 20). The path can only be composed of English words. no chinese words and no special words such as "# $ %".
 
-4. Click button to choose the output folder and set it as the parameter "Output Folder".
+4. Click button to choose the output folder and set it as the parameter "Output Folder". The path can only be composed of English words. no chinese words and no special words such as "# $ %".
 
 5. click Start Training button.
 
@@ -235,6 +237,10 @@ For imported point clouds, LOD is automatically calculated, with the default bei
 Dynamic switching of LOD based on the view camera will be supported in future updates.
 
 ## Release Note
+[v1.1.3](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.3)
+- Support dragging multiple ply files into the content directory
+- Fix the crash issue when the buffer asset position is incorrect
+- Fix bug in XV3DTools while using wrong path 
 
 [v1.1.2](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.2)
 - Supports more types of ply header 
