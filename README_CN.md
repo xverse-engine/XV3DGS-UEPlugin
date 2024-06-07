@@ -150,7 +150,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 <img src="Media/image/t10.jpg" width="500" />
 
-1. 点击图标，打开界面，切换到trainning页面
+1. 点击图标，打开界面，切换到Training页面
 
 <img src="Media/image/t4.jpg" width="500" />
 
