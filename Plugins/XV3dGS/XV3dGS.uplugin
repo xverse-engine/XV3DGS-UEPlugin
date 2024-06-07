@@ -32,6 +32,20 @@
 			"PlatformAllowList": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "GSEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "XV3dGSLoc",
+			"LoadingPolicy": "Editor"
 		}
 	],
 	"Plugins": [
