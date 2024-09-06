@@ -59,7 +59,7 @@ youtube（English）：
 - 2.熟练掌握至少一种编程语言，如C++，Python等。
 - 3.有顶级学术会议发表或编程竞赛优胜经验者有加分。
 
-投递邮箱：linxiangkai@xverse.cn
+投递邮箱：xengine@xverse.cn
 
 投递时请邮件标题标明申请正式员工or实习生岗位
 
