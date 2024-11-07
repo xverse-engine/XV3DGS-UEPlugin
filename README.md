@@ -121,17 +121,28 @@ Drag the blueprint into Level Viewport and you can see your Gaussian scene.
 
 ## Local Training on Windows Platform
 
-We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting ply.
+We develop the XV3DTools to train MP4 videos into Gaussian Splatting ply.
+| XV3DGS-UEPlugin Version | XV3DTools Version |
+|--|--|
+| 1.0.0 ~ 1.1.4 | 1.1.1 |
+| 1.1.5 | 1.1.2 |
+
 
 **_Please Note:_** Installation of CUDA 11 or higher is required. [CUDA Download Link](https://developer.nvidia.com/cuda-downloads)
 
+
 ### XV3DTools Usage Steps:
 
-0. Download XV3DTools(**V1.1.1**) tool from the cloud drive to your local machine: 
-- [Baidu Pan Download Link](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D)
-- [Google Drive Download Link](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
+0. Download XV3DTools tool from the cloud drive to your local machine: 
 
-<img src="Media/image/t10.jpg" width="500" />
+| XV3DTools Version | Download Link | Preview |
+|--|--|--|
+| 1.1.1 | [Baidu Pan](https://pan.baidu.com/s/1RA9B4pgn5jgh-lAEoq2nyw?pwd=qabd), [Google Drive](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing) | <img src="Media/image/t10.jpg" width="200" /> |
+| 1.1.2 | [Baidu Pan](https://pan.baidu.com/s/1n2B7Yq9LJMeq3THwoC4QQA?pwd=36id), [Google Drive](https://drive.google.com/file/d/1Ed8JG7x5fLNCykj3F7ir8Lp5VT7t_5xT/view?usp=sharing) | <img src="Media/image/xv3dtools-1.1.2.jpg" width="200" />|
+
+
+
+
   
 1. Click on the icon to open the interface and switch to the 'training' page.
 
@@ -147,18 +158,14 @@ We develop the XV3DTools(**V1.1.1**) to train MP4 videos into Gaussian Splatting
 
 <img src="Media/image/t6.jpg" width="500" />
 
-6. Before training, you can open "Advanced Options" and click "Refresh Estimated Time" button to estimate the training time. The parameter "Training iteration per image" can be adjusted to control the number of iterations per image.
-
-<img src="Media/image/t7.jpg" width="500" />
-
-7. Training takes time. Once completed, locate the trained ply file in the output folder.
+6. Training takes time. Once completed, locate the trained ply file in the output folder.
 
 <img src="Media/image/t5.jpg" width="500" />
 
 ### Training Speed Reference:
 - Test Machine Configuration: Windows 10, CUDA 11.8, GeForce RTX 2080 (8GB VRAM), i9-9900 processor.
-- demo_fox.mp4: Video duration of 10 seconds, training time of 10 minutes.
-- demo_office.mp4: Video duration of 430 seconds, training time of 360 minutes.
+- demo_fox.mp4: Video duration of 10 seconds, training time of 5 minutes( extract image with 5fps).
+- demo_office.mp4: Video duration of 430 seconds, training time of 40 minutes( extract image with 1fps).
 
 
 
@@ -237,10 +244,24 @@ For imported point clouds, LOD is automatically calculated, with the default bei
 Dynamic switching of LOD based on the view camera will be supported in future updates.
 
 ## Release Note
+
+[v1.1.5](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.5)
+- Support user-defined settings of training parameters
+- Modify 3DGS densification strategy to focus more on important areas
+- Support post-processing strategies for object reconstruction, which can effectively remove floaters
+- Support Gaussian models with spherical harmonic coefficients up to the 3rd degree.
+<img src="Media/image/compare/1.5-1.png" width="500" />
+<img src="Media/image/compare/1.5-2.png" width="500" />
+
+
+[v1.1.4](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.4)
+- Support UE5.4
+
 [v1.1.3](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.3)
 - Support dragging multiple ply files into the content directory
 - Fix the crash issue when the buffer asset position is incorrect
 - Fix bug in XV3DTools while using wrong path 
+  
 
 [v1.1.2](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.2)
 - Supports more types of ply header 

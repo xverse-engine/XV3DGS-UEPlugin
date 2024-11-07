@@ -138,17 +138,24 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 ## windows平台下本地训练Gaussian Splatting ply
 
-我们使用XV3DTools（**V1.1.1**）版本实现将MP4视频训练出Gaussian Splatting ply
+我们使用XV3DTools 实现将MP4视频训练出Gaussian Splatting ply
+| XV3DGS-UEPlugin 版本 | XV3DTools 版本 |
+|--|--|
+| 1.0.0 ~ 1.1.4 | 1.1.1 |
+| 1.1.5 | 1.1.2 |
 
  **_请注意:_** 使用前需要预先安装CUDA 11或更高版本[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)
 
 ### XV3DTools使用步骤：
 
-0. 从云盘下载XV3DTools工具（**V1.1.1**）至本地： 
-- [百度网盘下载地址](https://pan.baidu.com/s/18ur5HcHFVIDiL0xfoMQYQQ?pwd=XV3D) 
-- [谷歌云盘下载地址](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing)
+1. 从云盘下载XV3DTools工具（**注意和插件版本对齐**）至本地： 
 
-<img src="Media/image/t10.jpg" width="500" />
+| Version | Download Link | Preview |
+|--|--|--|
+| 1.1.1 | [Baidu Pan](https://pan.baidu.com/s/1RA9B4pgn5jgh-lAEoq2nyw?pwd=qabd), [Google Drive](https://drive.google.com/file/d/1o-P5hvNC6W3CH8MklGIZltt_-5yZtyHS/view?usp=sharing) | <img src="Media/image/t10.jpg" width="200" /> |
+| 1.1.2 | [Baidu Pan](https://pan.baidu.com/s/1n2B7Yq9LJMeq3THwoC4QQA?pwd=36id), [Google Drive](https://drive.google.com/file/d/1Ed8JG7x5fLNCykj3F7ir8Lp5VT7t_5xT/view?usp=sharing) | <img src="Media/image/xv3dtools-1.1.2.jpg" width="200" />|
+
+
 
 1. 点击图标，打开界面，切换到Training页面
 
@@ -164,18 +171,14 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 
 <img src="Media/image/t6.jpg" width="500" />
 
-6. 在训练之前，可以打开Advanced Options，点击Refresh Estimated Time按钮预估训练时间。可以调整Training iteration per image 参数来控制每张图像的迭代次数。
-
-<img src="Media/image/t7.jpg" width="500" />
-
-7. 训练完成后，从输出的文件夹下找到训练结果ply
+6. 训练完成后，从输出的文件夹下找到训练结果ply
 
 <img src="Media/image/t5.jpg" width="500" />
 
 ### 训练速度参考：
 - 测试机配置：Windows 10，CUDA 11，GeForce RTX 2080（8GB显存），i9-9900处理器。
-- demo_fox.mp4：视频总时长10秒，训练耗时10分钟
-- demo_office.mp4：视频总时长430秒，训练耗时360分钟
+- demo_fox.mp4：视频总时长10秒，训练耗时5分钟 (采样帧率为5fps)
+- demo_office.mp4：视频总时长430秒，训练耗时40分钟 (采样帧率为1fps)
 
 
 
@@ -252,6 +255,19 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
   
 <img src="Media/image/FD1.jpg" width="500" />
 
+
+## 版本说明
+
+[v1.1.5](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.5)
+- 支持用户自定义训练参数设置
+- 修改3DGS致密化策略，更加关注重要领域
+- 支持对象重建的后处理策略，可以有效地去除浮点数
+- 支持导入0~3阶球谐系数的高斯模型
+<img src="Media/image/compare/1.5-1.png" width="500" />
+<img src="Media/image/compare/1.5-2.png" width="500" />
+
+[v1.1.4](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.4)
+- 支持 UE5.4
  
 [v1.1.3](https://github.com/xverse-engine/XV3DGS-UEPlugin/tree/v1.1.3)
 - 支持拖动多个文件Content Browser并导入

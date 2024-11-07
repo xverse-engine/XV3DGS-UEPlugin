@@ -56,6 +56,11 @@ public class GSImporter : ModuleRules
                 "Media",
                 "Blutility",
                 "UMG",
+                "Json",
+                "LevelSequence",
+                "MovieScene",
+                "DesktopPlatform",
+                "Eigen",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

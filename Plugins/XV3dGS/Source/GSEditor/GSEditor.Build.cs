@@ -7,7 +7,7 @@ public class GSEditor : ModuleRules
 	public GSEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		bUsePrecompiled = true;
+        bUsePrecompiled = true;
 		PublicIncludePaths.AddRange(
 			new string[] {
 				// ... add public include paths required here ...

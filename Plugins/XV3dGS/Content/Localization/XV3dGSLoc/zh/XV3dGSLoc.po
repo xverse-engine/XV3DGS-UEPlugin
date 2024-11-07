@@ -1,0 +1,435 @@
+﻿# XV3dGSLoc Chinese translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: XV3dGSLoc\n"
+"POT-Creation-Date: 2024-11-05 03:17\n"
+"PO-Revision-Date: 2024-11-05 03:17\n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	0137A95247C4178E556DBCB5ECCF314E
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_36.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_36.Text
+msgctxt ",0137A95247C4178E556DBCB5ECCF314E"
+msgid "Use Gpu:"
+msgstr "是否用GPU"
+
+#. Key:	04E0D7F14D23AA3A1FDCF2AEC3E4E194
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_19.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_19.Text
+msgctxt ",04E0D7F14D23AA3A1FDCF2AEC3E4E194"
+msgid "If you have any issue, you can raise it on GitHub Issue, or email: "
+msgstr "如果关于插件的任何问题，麻烦通过github或者email联系我们"
+
+#. Key:	05CE9FF5448A8BBEB67BFB9C5D115666
+#. SourceLocation:	/XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock_29.Text
+#: /XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock_29.Text
+msgctxt ",05CE9FF5448A8BBEB67BFB9C5D115666"
+msgid "Import PLY"
+msgstr "导入ply点云文件"
+
+#. Key:	0727776F4811B7E181C83D9FB2B35D3C
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_ImagesDir.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_ImagesDir.Text
+msgctxt ",0727776F4811B7E181C83D9FB2B35D3C"
+msgid "D:/XV3dGS/Images"
+msgstr ""
+
+#. Key:	0AB3D5124D637F9909B76DBB50D2406C
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_OutDir.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_OutDir.Text
+msgctxt ",0AB3D5124D637F9909B76DBB50D2406C"
+msgid "D:/XV3dGS/Output"
+msgstr ""
+
+#. Key:	10CCA31248469E96CA92C2A26255CFB2
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_15.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_15.Text
+msgctxt ",10CCA31248469E96CA92C2A26255CFB2"
+msgid "..."
+msgstr ""
+
+#. Key:	10ED982049B0195B961B8FA2200EEADC
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_32.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_32.Text
+msgctxt ",10ED982049B0195B961B8FA2200EEADC"
+msgid "Training Parameters"
+msgstr "训练参数"
+
+#. Key:	1180F696415A09B84D5D4B9E74D3326B
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_6.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_6.Text
+msgctxt ",1180F696415A09B84D5D4B9E74D3326B"
+msgid "3: Set the parameter ''Output Folder'' to the folder where you can find the training results."
+msgstr "3：将参数”输出目录“ 设置训练输出文件夹路径"
+
+#. Key:	15710A354ACF71B90462C19B875A0C32
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_16.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_16.Text
+msgctxt ",15710A354ACF71B90462C19B875A0C32"
+msgid "Input Images Path"
+msgstr "导入图片路径"
+
+#. Key:	18102989419E0756561E5B824CEEFAE6
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_40.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_40.Text
+msgctxt ",18102989419E0756561E5B824CEEFAE6"
+msgid "Do density filtering, and removal of floaters (only effective for object reconstruction)"
+msgstr "做稠密滤波，可以去除部分漂浮点（仅对物体重建有效）"
+
+#. Key:	189CBD61400656EBD7A25587430A8B86
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_18.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_18.Text
+msgctxt ",189CBD61400656EBD7A25587430A8B86"
+msgid "Output Folder"
+msgstr "输出目录"
+
+#. Key:	226208DE4C3D54E8F07064BA369CEEA4
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_186.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_186.Text
+msgctxt ",226208DE4C3D54E8F07064BA369CEEA4"
+msgid "XV3DTools v1.0"
+msgstr "XV3D工具V1.0"
+
+#. Key:	2B692C5940B978A94AAEAFA0A84B512C
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_11.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_11.Text
+msgctxt ",2B692C5940B978A94AAEAFA0A84B512C"
+msgid "Name of the camera model."
+msgstr "相机模型"
+
+#. Key:	359AB1B94D826B3DB0FA0C8D6A2B7751
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_69.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_69.Text
+msgctxt ",359AB1B94D826B3DB0FA0C8D6A2B7751"
+msgid "Merge all the images under the input folder into one mp4 file."
+msgstr "将输入文件夹内的所有图片文件导入到一个mp4文件中"
+
+#. Key:	35AC440F4ACAA8B63F22D88710C1968B
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_2.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_2.Text
+msgctxt ",35AC440F4ACAA8B63F22D88710C1968B"
+msgid "Usage Steps:"
+msgstr "使用的步长"
+
+#. Key:	391D2831491DE51A6A1958B4D3145E91
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_12.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_12.Text
+msgctxt ",391D2831491DE51A6A1958B4D3145E91"
+msgid "..."
+msgstr ""
+
+#. Key:	3ED3080047E89DCABE50CBA642BF0595
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_31.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_31.Text
+msgctxt ",3ED3080047E89DCABE50CBA642BF0595"
+msgid "Whether to use the same camera for all images."
+msgstr "是否对左右图片使用相同的相机参数"
+
+#. Key:	4022F31C4935C05C770C19836DFA8346
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_39.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_39.Text
+msgctxt ",4022F31C4935C05C770C19836DFA8346"
+msgid "Post Process:"
+msgstr "后处理"
+
+#. Key:	4A5226E548DACE68FCF98DBD48A2191F
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_5.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_5.Text
+msgctxt ",4A5226E548DACE68FCF98DBD48A2191F"
+msgid "2: Set the parameter \"Input MP4 Path\" to your MP4 file (FPS > 20)."
+msgstr "2：将参数”输入MP4文件“设置为本地的MP4文件路径"
+
+#. Key:	4BE9E8D1437FB8D39C25B299B80372F4
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_sample_fps.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_sample_fps.Text
+msgctxt ",4BE9E8D1437FB8D39C25B299B80372F4"
+msgid "1"
+msgstr ""
+
+#. Key:	4C1CB6354EF462C27B20D6A3BEC276C9
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_9.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_9.Text
+msgctxt ",4C1CB6354EF462C27B20D6A3BEC276C9"
+msgid "Start Training"
+msgstr "开始训练"
+
+#. Key:	4DB649FE4953104DE4DA3C9B44324E1B
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_34.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_34.Text
+msgctxt ",4DB649FE4953104DE4DA3C9B44324E1B"
+msgid "Spherical Harmonics Degree:"
+msgstr "球谐阶数"
+
+#. Key:	4E1473174CB64E5FE63C1F8747463687
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_14.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_14.Text
+msgctxt ",4E1473174CB64E5FE63C1F8747463687"
+msgid "XV3DTools Folder"
+msgstr "XV3DTools 目录"
+
+#. Key:	4E5A8B064D6A7E5D50E1D5A5132D9A45
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_37.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_37.Text
+msgctxt ",4E5A8B064D6A7E5D50E1D5A5132D9A45"
+msgid "Whether to use gpu to training"
+msgstr "是否使用GPU做训练"
+
+#. Key:	508063AF4BA2AEC8A128EDB44CAE2998
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_278.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_278.Text
+msgctxt ",508063AF4BA2AEC8A128EDB44CAE2998"
+msgid "https://github.com/xverse-engine/XV3DGS-UEPlugin"
+msgstr ""
+
+#. Key:	52B5FBC746F8871E073D519F59A5FD23
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_1.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_1.Text
+msgctxt ",52B5FBC746F8871E073D519F59A5FD23"
+msgid "TEST"
+msgstr "测试"
+
+#. Key:	63E669F44F6E4C4E2AB45B98C09001A7
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock_30.Text
+#: /XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock_30.Text
+msgctxt ",63E669F44F6E4C4E2AB45B98C09001A7"
+msgid "Import PLY File"
+msgstr "导入ply点云文件"
+
+#. Key:	6A0124F34E861D0742CB5BBF08ABCC71
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_3.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_3.Text
+msgctxt ",6A0124F34E861D0742CB5BBF08ABCC71"
+msgid "Merge Images To MP4"
+msgstr "将图片组合为mp4文件"
+
+#. Key:	6A1E6F8B444701D350393391C5E048EE
+#. SourceLocation:	/XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock.Text
+#: /XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock.Text
+msgctxt ",6A1E6F8B444701D350393391C5E048EE"
+msgid "Training"
+msgstr "训练"
+
+#. Key:	779FCD38467435F45E276D808511EBB4
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_toolDir.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_toolDir.Text
+msgctxt ",779FCD38467435F45E276D808511EBB4"
+msgid "D:/XV3dGS/XV3DTools"
+msgstr ""
+
+#. Key:	78AECA05488C3B0916B73BBDDF9A4B96
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_35.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_35.Text
+msgctxt ",78AECA05488C3B0916B73BBDDF9A4B96"
+msgid "The degree of the spherical harmonics"
+msgstr "球谐阶数"
+
+#. Key:	7E581F8946D8BE2DE176179A117B32C6
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_87.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_87.Text
+msgctxt ",7E581F8946D8BE2DE176179A117B32C6"
+msgid "https://colmap.github.io/cameras.html"
+msgstr ""
+
+#. Key:	7FD323D146227C93E65890BC26E8F80C
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_42.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_42.Text
+msgctxt ",7FD323D146227C93E65890BC26E8F80C"
+msgid "Sample fps in video or images"
+msgstr "对输入视频的采样帧率"
+
+#. Key:	7FE3C1A54CEBEACE060CD8BF3E3C1978
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_iteration_number.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_iteration_number.Text
+msgctxt ",7FE3C1A54CEBEACE060CD8BF3E3C1978"
+msgid "3000"
+msgstr ""
+
+#. Key:	8D4267584AB8FA5F320CFB9FABA5B574
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_23.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_23.Text
+msgctxt ",8D4267584AB8FA5F320CFB9FABA5B574"
+msgid "Colmap Parameters"
+msgstr "Colmap参数"
+
+#. Key:	9DBDB6C549748D5E3A92D28785995429
+#. SourceLocation:	/XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock_1.Text
+#: /XV3dGS/window/BP/mainWindow.mainWindow_C:WidgetTree.TextBlock_1.Text
+msgctxt ",9DBDB6C549748D5E3A92D28785995429"
+msgid "Tools"
+msgstr "工具"
+
+#. Key:	9E75BB7D49D50B36600A98B38A09ABD8
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_10.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_10.Text
+msgctxt ",9E75BB7D49D50B36600A98B38A09ABD8"
+msgid "Camera Model:"
+msgstr "相机模型"
+
+#. Key:	9EA4BE7E40D2C6EC20C044BEB8076190
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock_69.Text
+#: /XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock_69.Text
+msgctxt ",9EA4BE7E40D2C6EC20C044BEB8076190"
+msgid "directly into the Content Browser and importing them."
+msgstr "直接拖入UE目录就可以导入"
+
+#. Key:	A6D1B6994EDA5D4A3A6289ABC2E9AB1A
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_13.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_13.Text
+msgctxt ",A6D1B6994EDA5D4A3A6289ABC2E9AB1A"
+msgid "..."
+msgstr ""
+
+#. Key:	AB02854A4CBF09A19F6B1FB3D26AF9D1
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_30.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_30.Text
+msgctxt ",AB02854A4CBF09A19F6B1FB3D26AF9D1"
+msgid "Single Camera:"
+msgstr "数据是否单镜头拍摄"
+
+#. Key:	AE0C0FC7441F463A81A6E4854E239559
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_14.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_14.Text
+msgctxt ",AE0C0FC7441F463A81A6E4854E239559"
+msgid "XV3DTools Folder"
+msgstr "XV3DTools 目录"
+
+#. Key:	AFE06F384C665222A27984879916A933
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_7.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_7.Text
+msgctxt ",AFE06F384C665222A27984879916A933"
+msgid "XV3DTools and Demo MP4 files can be downloaded from our github: "
+msgstr "XV3D工具 以及 测试MP4文件可以从我们的github下载"
+
+#. Key:	B602F10B412645F62D5C26B48AFADAA5
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_FileDir.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_FileDir.Text
+msgctxt ",B602F10B412645F62D5C26B48AFADAA5"
+msgid "D:/XV3dGS/resource.mp4"
+msgstr ""
+
+#. Key:	B8D49B55430CA964F4C2828F37063DC2
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_33.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_33.Text
+msgctxt ",B8D49B55430CA964F4C2828F37063DC2"
+msgid "Iterations:"
+msgstr "迭代次数"
+
+#. Key:	BCF7E8484A13F31C9E8EC1BCEA77A61C
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_OutDir.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox_OutDir.Text
+msgctxt ",BCF7E8484A13F31C9E8EC1BCEA77A61C"
+msgid "D:/XV3dGS/Output"
+msgstr ""
+
+#. Key:	C8E1881145BDEE32600D96931F480A23
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_8.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_8.Text
+msgctxt ",C8E1881145BDEE32600D96931F480A23"
+msgid "4: Press the button  “Start Training” ,  The estimated training time can be seen under ”Advanced options“."
+msgstr "4：点击按钮“开始训练”"
+
+#. Key:	CAE9643A46EBC36749326AB27E20B5DE
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_16.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_16.Text
+msgctxt ",CAE9643A46EBC36749326AB27E20B5DE"
+msgid "Input MP4 Path"
+msgstr "输入MP4文件"
+
+#. Key:	CBC927094C4A94440891F7A3985B59E2
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_18.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock_18.Text
+msgctxt ",CBC927094C4A94440891F7A3985B59E2"
+msgid "Output Folder"
+msgstr "输出目录"
+
+#. Key:	CE2138B845A00F3BFA85B39792FEAF00
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_toolDir.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.EditableTextBox_toolDir.Text
+msgctxt ",CE2138B845A00F3BFA85B39792FEAF00"
+msgid "D:/XV3dGS/XV3DTools"
+msgstr ""
+
+#. Key:	D064BA844E34CDABF96984A763B74BED
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock.Text
+msgctxt ",D064BA844E34CDABF96984A763B74BED"
+msgid "Train a given mp4 video to Gaussian Splatting ply file. "
+msgstr "将输入的mp4视频文件转成高斯泼溅点云文件"
+
+#. Key:	D74E17E44DC4A2257CA381AD2DF64BB7
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_3.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_3.Text
+msgctxt ",D74E17E44DC4A2257CA381AD2DF64BB7"
+msgid "0: Download the XV3DTools tool from the cloud drive."
+msgstr "0：从云盘下载XV3D训练工具"
+
+#. Key:	D978D88648C3DFA0C3850B8883A13A46
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_1.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_1.Text
+msgctxt ",D978D88648C3DFA0C3850B8883A13A46"
+msgid "Note: CUDA 11 or above  must be installed."
+msgstr "注意：必须使用CUDA11 以及以上版本"
+
+#. Key:	D9D95C1345D1449AA5F3FFAE94A61FE2
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock.Text
+#: /XV3dGS/window/BP/secondWindow_Tools.secondWindow_Tools_C:WidgetTree.TextBlock.Text
+msgctxt ",D9D95C1345D1449AA5F3FFAE94A61FE2"
+msgid "TEST"
+msgstr "测试"
+
+#. Key:	DFAEF5FC482CB63735F1D181AF016DD4
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_17.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_17.Text
+msgctxt ",DFAEF5FC482CB63735F1D181AF016DD4"
+msgid "TEST"
+msgstr ""
+
+#. Key:	EE1C99674FCF85E31A2F6DB7780A7D1A
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_4.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_4.Text
+msgctxt ",EE1C99674FCF85E31A2F6DB7780A7D1A"
+msgid "1: Set the parameter ''XV3DTools Folder'' to the local path where the XV3DTools is located."
+msgstr "1：将参数\"XV3DTools 目录“ 设置为 XV3DTools 本地路径"
+
+#. Key:	F098854D4F8901B3355334B9C5E8F817
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.EditableTextBox.Text
+msgctxt ",F098854D4F8901B3355334B9C5E8F817"
+msgid "xengine@xverse.cn"
+msgstr ""
+
+#. Key:	F1B9E3C74C06BBED8EE896BF339E644B
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_15.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_15.Text
+msgctxt ",F1B9E3C74C06BBED8EE896BF339E644B"
+msgid "..."
+msgstr ""
+
+#. Key:	F43B898543D79424C2477D9F8252AAB6
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_41.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_41.Text
+msgctxt ",F43B898543D79424C2477D9F8252AAB6"
+msgid "Fps:"
+msgstr "采样帧率"
+
+#. Key:	F44018A043D9CC9E478EC99C1CB35EB2
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock.Text
+#: /XV3dGS/window/BP/secondWindow_importPLY.secondWindow_importPLY_C:WidgetTree.TextBlock.Text
+msgctxt ",F44018A043D9CC9E478EC99C1CB35EB2"
+msgid "After v1.1.3, this plugin supports dragging multiple ply files "
+msgstr "在V1.1.3版本后，插件支持直接拖拽ply文件到内容目录中"
+
+#. Key:	FF7255B342406A202465E188651A8194
+#. SourceLocation:	/XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_38.Text
+#: /XV3dGS/window/BP/secondWindow_Training.secondWindow_Training_C:WidgetTree.TextBlock_38.Text
+msgctxt ",FF7255B342406A202465E188651A8194"
+msgid "Total number of training iterations"
+msgstr "总共的训练迭代次数"
+
