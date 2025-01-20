@@ -50,7 +50,7 @@ B站（中文）：
 ## System Requirements
 
 - Windows 10 or 11
-- Unreal Engine 5.1.x / 5.2.x / 5.3.x
+- Unreal Engine 5.1.x / 5.2.x / 5.3.x / 5.4.x / 5.5.x
 - cuda11 or higher (if using the XV3DTools)
 
 
@@ -125,7 +125,7 @@ We develop the XV3DTools to train MP4 videos into Gaussian Splatting ply.
 | XV3DGS-UEPlugin Version | XV3DTools Version |
 |--|--|
 | 1.0.0 ~ 1.1.4 | 1.1.1 |
-| 1.1.5 | 1.1.2 |
+| 1.1.5 ~ 1.1.5.1 | 1.1.2 |
 
 
 **_Please Note:_** Installation of CUDA 11 or higher is required. [CUDA Download Link](https://developer.nvidia.com/cuda-downloads)

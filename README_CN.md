@@ -66,7 +66,7 @@ youtube（English）：
 
 ## 系统要求
 - Windows 10 或 11
-- Unreal Engine 5.1.x / 5.2.x / 5.3.x
+- Unreal Engine 5.1.x / 5.2.x / 5.3.x / 5.4.x / 5.5.x
 - cuda11或更高（如果要使用XV3DTools训练工具）
 
 
@@ -142,7 +142,7 @@ git clone https://github.com/xverse-engine/XV3DGS-UEPlugin.git
 | XV3DGS-UEPlugin 版本 | XV3DTools 版本 |
 |--|--|
 | 1.0.0 ~ 1.1.4 | 1.1.1 |
-| 1.1.5 | 1.1.2 |
+| 1.1.5 ~ 1.1.5.1 | 1.1.2 |
 
  **_请注意:_** 使用前需要预先安装CUDA 11或更高版本[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)
 
